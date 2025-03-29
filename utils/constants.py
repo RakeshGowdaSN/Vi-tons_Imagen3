@@ -1,5 +1,5 @@
-PROJECT_ID = "pitchhubsmes"
-BUCKET = "pitchhubsmes"
+PROJECT_ID = <Your Project ID>
+BUCKET = <Your GCS bucket name>
 REGION = "us-central1"
 LOCATION = "us-central1"
 search_location = "global"
