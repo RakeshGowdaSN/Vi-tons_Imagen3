@@ -1,0 +1,8 @@
+service: 'virtual-tryons'  # Service name
+# entrypoint: gunicorn -b :$PORT app:app  # Command to start FastAPI app
+entrypoint: uvicorn app:app --host=0.0.0.0 --port=8082  # Command to start FastAPI app
+
+runtime: python311  # Custom runtime for Docker deployment
+env: standard  # Flexible environment
+
+instance_class: F4_1G  # Flexible environment with 2 CPUs and 4GB of memory

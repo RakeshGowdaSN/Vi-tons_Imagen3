@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+requests
+google-cloud-storage
+python-dotenv
+python-multipart
+google-generativeai
+google-cloud-aiplatform
